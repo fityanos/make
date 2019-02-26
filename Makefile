@@ -1,6 +1,7 @@
-.DEFAULT_GOAL :=brew
+.DEFAULT_GOAL :=setup
 
-#	to check I use the command cat -e -t -v makefile_name
+#	to check makefile formal TAPS & LINE ENDS => cat -e -t -v makefile_name
+#	for codeCeption API suite => after you run the below make sure to enable REST and BASEURL to see the commands
 
 OPERATING_SYSTEM :=
 ifeq ($(OS),Windows_NT)
@@ -26,6 +27,7 @@ help:
 	@echo "git                install git on your mac"
 	@echo "jq                 install jq on your mac"
 	@echo "java               install java on your mac"
+	@echo "setup              set of dependencies"
 	@echo "cypress            install cypress.io on your mac"
 	@echo "codeception        install and configure codeception on your mac"
 
@@ -48,6 +50,15 @@ git:
 	brew install git
 
 jq:
+	brew install jq
+
+setUp:
+	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	brew install zsh zsh-completions
+	brew install curl
+	brew install php
+	brew install node
+	brew install git
 	brew install jq
 
 java:
