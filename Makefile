@@ -23,6 +23,7 @@ help:
 	@echo "curl               install curl on your mac"
 	@echo "php                install php on your mac"
 	@echo "node               install node on your mac"
+	@echo "git                install git on your mac"
 	@echo "java               install java on your mac"
 	@echo "cypress            install cypress.io on your mac"
 	@echo "codeception        install and configure codeception on your mac"
@@ -41,6 +42,9 @@ php:
 
 node:
 	brew install node
+
+git:
+	brew install git
 
 java:
 	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)
