@@ -26,6 +26,7 @@ help:
 	@echo "node               install node on your mac"
 	@echo "git                install git on your mac"
 	@echo "jq                 install jq on your mac"
+	@echo "tree               install tree on your mac"
 	@echo "java               install java on your mac"
 	@echo "setup              set of dependencies"
 	@echo "cypress            install cypress.io on your mac"
@@ -51,6 +52,9 @@ git:
 
 jq:
 	brew install jq
+
+tree
+	brew install tree
 
 setUp:
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
