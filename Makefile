@@ -1,6 +1,6 @@
 .DEFAULT_GOAL :=setup
 
-#	to check makefile formal TAPS & LINE ENDS => cat -e -t -v makefile_name
+#	to check makefile format TAPS & LINE ENDS => cat -e -t -v makefile_name
 #	for codeCeption API suite => after you run the below make sure to enable REST and BASEURL to see the commands
 
 OPERATING_SYSTEM :=
