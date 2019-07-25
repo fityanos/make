@@ -1,4 +1,4 @@
-# make file for setup QA Engineer Machine:
+# Some major dependincies and automation framworks setup commands
 
 ```bash
 help:
