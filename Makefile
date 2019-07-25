@@ -53,7 +53,7 @@ git:
 jq:
 	brew install jq
 
-tree
+tree:
 	brew install tree
 
 setUp:
