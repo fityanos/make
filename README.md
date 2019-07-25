@@ -1,4 +1,4 @@
-# Some major dependincies and automation framworks setup commands
+## Dependincies setup commands
 
 ```bash
 help:
